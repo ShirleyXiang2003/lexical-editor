@@ -2,7 +2,7 @@ import styled from "@emotion/styled";
 import { ContentEditable } from "@lexical/react/LexicalContentEditable";
 
 export const MuiContentEditable = styled(ContentEditable)({
-  minHeight: 200,
+  height: "100%",
   width: "100%",
   padding: "0 8px",
   borderRadius: 5,
@@ -10,8 +10,9 @@ export const MuiContentEditable = styled(ContentEditable)({
   paddingLeft: 10,
   position: "relative",
   outline: "none",
+  overflow: "auto", 
 });
-
+ 
 export const placeHolderSx = {
   position: "absolute",
   top: 15,

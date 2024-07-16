@@ -10,14 +10,14 @@ const theme = createTheme({
       main: "#2c3e50",
     },
     secondary: {
-      main: "#fa7930ff",
+      main: "#991503",
       contrastText: "white",
     },
     background: {
-      default: "#f8f8f8",
+      default: "#e8dad8",
     },
     colors: {
-      darkblue: "#364570ff",
+      darkblue: "#750f01",
       lightgreen: "#9cbec6ff",
     },
   },
